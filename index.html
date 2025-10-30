@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Resources/Images/UA_logo-2.png" type="image/png">
+    <title>UA Garments</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  </head>
+<body style="background-color: #f2f2f2">
+  <div class="container-fluid">
+    <div class="row" id="init">
+    <!-- Nav Bar -->
+    <section>
+        <nav class="navbar navbar-expand-lg bg-dark p-1 ps-2 pe-3 pb-0" id="nav-2">
+          <div class="container-fluid ms-lg-4">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-3 gap-1 mb-lg-0" id="navbar-nav navbar-2">
+                <li class="nav-item">
+                  <a href="tel:9443704173" class="nav-link active" id="nav-link" target="_blank"><i class="fa-solid fa-phone"></i> +91 9443704173 </a>
+                </li>
+                <li class="nav-item">
+                  <a href="mailto:uagarments1984@gmail.com" class="nav-link active" id="nav-link" target="_blank"><i class="fa-solid fa-envelope"></i>uagarments1984@gmail.com</a>
+                </li>
+                <li class="nav-item nav-address">
+                  <a href="https://maps.app.goo.gl/irziqAkRpTzR9ayS6" class="nav-link active" id="nav-link" target="_blank"><i class="fa-solid fa-location-arrow"></i>Konam Junction, Maruthancode - 629 163.</span></a>
+                </li>
+              </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-5 gap-3 ms-auto mb-2 mb-lg-0" id="navbar-nav">
+                <li class="nav-item">
+                  <a href="https://wa.me/+919443704173?text=Hii UA Garment, I like to enquire about..." target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a href="mailto:uaagarments1984@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a href="tel:9443704173" target="_blank"><i class="fa-solid fa-phone"></i></a>
+                </li>
+              </ul>
+            </div>  
+          </div>
+        </nav>  
+        <nav class="navbar navbar-expand-lg bg-dark p-3 ps-3 pe-2">
+            <div class="container-fluid ms-lg-4">
+              <a class="pe-sm-4" id="navbar-brand" href="#"><img src="Resources/Images/UA_logo-2.png" alt="UA Garments" id="nav-img"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-5 gap-3 ms-auto mb-2 mb-lg-0" id="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" id="nav-link" href="#about_us">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" id="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                    <ul class="dropdown-menu" id="dropdown-menu">
+                      <li><a class="dropdown-item" id="dropdown-item" href="#service-1">On Trend Outfits</a></li> 
+                      <li><a class="dropdown-item" id="dropdown-item" href="#service-2">Custom Apparel</a></li>
+                      <li><a class="dropdown-item" id="dropdown-item" href="#service-3">Casual Outfits</a></li>
+                      <li><a class="dropdown-item" id="dropdown-item" href="#service-4">Cultural Outfits</a></li>
+                      <li><a class="dropdown-item" id="dropdown-item" href="#service-5">Fabric printing</a></li>
+                      <li><a class="dropdown-item" id="dropdown-item" href="#service-6">Uniform Outfits</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" id="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                    <ul class="dropdown-menu" id="dropdown-menu">
+                        <li><a class="dropdown-item" id="dropdown-item" href="#ic-2">Academic Events</a></li>
+                        <li><a class="dropdown-item" id="dropdown-item" href="#ic-1">Sports Events</a></li>
+                        <li><a class="dropdown-item" id="dropdown-item" href="#ic-2">Festivel Evenys</a></li>
+                        <li><a class="dropdown-item" id="dropdown-item" href="#ic-1">Wedding Events</a></li>
+                        <li><a class="dropdown-item" id="dropdown-item" href="#ic-2">Academic Events</a></li>
+                        <li><a class="dropdown-item" id="dropdown-item" href="#ic-2">On Trend Works</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" id="nav-link" href="#teximonials">Testimonials</a>  
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" id="nav-link" href="#contact-form">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" id="nav-link" href="blog.html">Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <!-- Banner -->
+    <section class="top-banner" id="top-banner">
+      <div class="container-fluid p-0">
+        <div class="row m-0">
+          <div class="col-md-12 p-0">
+            <div id="banner">
+              <div id="ban-con" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
+                <p id="garment">UA GARMENT'S PROMISE<p>
+                <div id="head">
+                  <h1>"Sunrise to Sunset, Our Fabrics Shine </h1>
+                  <h1>- Kanyakumari's Textile Excellence."</h1>
+                </div>
+                <div id="cont">
+                  <p>
+                    If you are searching for the best garment shops in Kanyakumari, look no further.... 
+                  </p>
+                  <p>
+                    Experience unmatched quality, tailored perfection style with our exclusive collections. 
+                  </p>
+                  <p>
+                    Shop now and embrace the elegance of Kanyakumari's textile heritage...!
+                  </p>
+                  <div id="ban-btn">
+                    <a class="btn mt-4" id="connect-btn" href="https://chat.whatsapp.com/JjMLetUxtK70xYpAk6uObC?mode=ac_t" role="button" target="_blank">Join Community</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="glass-box d-none d-md-block d-lg-block" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" data-aos-offset="0">
+              <h4>Looking For Jersey!</h4>
+              <p>Get amazing style with us.</p>
+              <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (4.9/5)</p>
+              <p style="margin-top: -8px; font-size: 12px;">(by trusted customers)</p>
+            </div>
+            <div class="info-cards d-flex">
+              <div class="card" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true" data-aos-offset="0">
+                  <h5><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#156878"><path d="M318-420v-295h90v295l-45-45-45 45Zm194 91v-551h90v461l-90 90ZM124-229v-320h90v230l-90 90Zm-4 111 246-246 149 132 262-262h-88v-60h191v190h-60v-88L517-149 368-280 206-118h-86Z"/></svg>
+                    Excellent Material
+                  </h5>
+                  <p>Our fabrics are crafted from premium-quality fabrics to ensure comfort, durability, softness, and long-lasting performance.</p>
+              </div>
+              <div class="card" data-aos="fade-down" data-aos-duration="2500" data-aos-once="true" data-aos-offset="0">
+                  <h5><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#156878"><path d="M286.79-81Q257-81 236-102.21t-21-51Q215-183 236.21-204t51-21Q317-225 338-203.79t21 51Q359-123 337.79-102t-51 21Zm400 0Q657-81 636-102.21t-21-51Q615-183 636.21-204t51-21Q717-225 738-203.79t21 51Q759-123 737.79-102t-51 21ZM235-741l110 228h288l125-228H235Zm-30-60h589.07q22.97 0 34.95 21 11.98 21-.02 42L694-495q-11 19-28.56 30.5T627-453H324l-56 104h491v60H277q-42 0-60.5-28t.5-63l64-118-152-322H51v-60h117l37 79Zm140 288h288-288Z"/></svg>
+                    Quality Product
+                  </h5>
+                  <p>We take pride in delivering high-quality products designed for durability, performance, and customer satisfaction in low cost.</p>
+              </div>
+              <div class="card" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" data-aos-offset="0">
+                  <h5><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#156878"><path d="M160-740v-60h642v60H160Zm5 580v-258h-49v-60l44-202h641l44 202v60h-49v258h-60v-258H547v258H165Zm60-60h262v-198H225v198Zm-50-258h611-611Zm0 0h611l-31-142H206l-31 142Z"/></svg>
+                    Trusted by Clients
+                  </h5>
+                  <p>Our commitment to quality, affordable pricing and customer satisfaction has earned us the trust of clients worldwide.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="tel:9443704173" class="fixed-icon call-icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Call">
+      </a>
+      <a href="https://wa.me/+919443704173?text=Hii UA Garment, I like to enquire about..." class="fixed-icon whatsapp-icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+      </a>
+    </section>
+    <!-- About Us -->
+    <section>
+      <div class="container-fluid" id="about_us">
+        <div class="row">
+          <div class="col-md-6" id="about_img"> 
+            <img src="Resources/Images/About_Us 01.webp" alt="" id="about_img2" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true" data-aos-offset="5">
+            <img src="Resources/Images/About_Us 02.webp" alt="" id="about_img3" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" data-aos-offset="5">
+            <div id="about_img1"></div>
+          </div>
+          <div class="col-md-6" id="about_cont">
+            <h6>ABOUT OUR GARMENT</h6>
+            <h1>
+              Tiruppur Cloned Garment In The Scenic Town Of Kanyakumari
+            </h1>
+            <p>
+              We are a passionate garment manufacturing and tailoring business dedicated to delivering high-quality, custom-made apparel. 
+              With years of experience in the industry, we specialize in designing, manufacturing, and tailoring a wide range of garments, from traditional attire to contemporary fashion. 
+              Our expert team of skilled tailors and designers works closely with each client to create garments that perfectly match their style, fit, and preferences.
+            </p>
+            <div class="row">
+              <div class="vision-mission">
+                <div class="box">
+                  <h2>Our Vision</h2>
+                  <ul>
+                      <li><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f88c28"><path d="m422.46-323.69 255.85-255.85L650-607.85 422.46-380.31l-114-114L280.15-466l142.31 142.31ZM480.13-120q-74.67 0-140.41-28.34-65.73-28.34-114.36-76.92-48.63-48.58-76.99-114.26Q120-405.19 120-479.87q0-74.67 28.34-140.41 28.34-65.73 76.92-114.36 48.58-48.63 114.26-76.99Q405.19-840 479.87-840q74.67 0 140.41 28.34 65.73 28.34 114.36 76.92 48.63 48.58 76.99 114.26Q840-554.81 840-480.13q0 74.67-28.34 140.41-28.34 65.73-76.92 114.36-48.58 48.63-114.26 76.99Q554.81-120 480.13-120Zm-.13-40q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg> To be lead in garment manufacturing.</li>
+                      <li><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f88c28"><path d="m422.46-323.69 255.85-255.85L650-607.85 422.46-380.31l-114-114L280.15-466l142.31 142.31ZM480.13-120q-74.67 0-140.41-28.34-65.73-28.34-114.36-76.92-48.63-48.58-76.99-114.26Q120-405.19 120-479.87q0-74.67 28.34-140.41 28.34-65.73 76.92-114.36 48.58-48.63 114.26-76.99Q405.19-840 479.87-840q74.67 0 140.41 28.34 65.73 28.34 114.36 76.92 48.63 48.58 76.99 114.26Q840-554.81 840-480.13q0 74.67-28.34 140.41-28.34 65.73-76.92 114.36-48.58 48.63-114.26 76.99Q554.81-120 480.13-120Zm-.13-40q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg> Deliver exceptional craftsmanship.</li>
+                      <li><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f88c28"><path d="m422.46-323.69 255.85-255.85L650-607.85 422.46-380.31l-114-114L280.15-466l142.31 142.31ZM480.13-120q-74.67 0-140.41-28.34-65.73-28.34-114.36-76.92-48.63-48.58-76.99-114.26Q120-405.19 120-479.87q0-74.67 28.34-140.41 28.34-65.73 76.92-114.36 48.58-48.63 114.26-76.99Q405.19-840 479.87-840q74.67 0 140.41 28.34 65.73 28.34 114.36 76.92 48.63 48.58 76.99 114.26Q840-554.81 840-480.13q0 74.67-28.34 140.41-28.34 65.73-76.92 114.36-48.58 48.63-114.26 76.99Q554.81-120 480.13-120Zm-.13-40q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg> Promote sustainable production.</li>
+                      <li><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#156878"><path d="m422.46-323.69 255.85-255.85L650-607.85 422.46-380.31l-114-114L280.15-466l142.31 142.31ZM480.13-120q-74.67 0-140.41-28.34-65.73-28.34-114.36-76.92-48.63-48.58-76.99-114.26Q120-405.19 120-479.87q0-74.67 28.34-140.41 28.34-65.73 76.92-114.36 48.58-48.63 114.26-76.99Q405.19-840 479.87-840q74.67 0 140.41 28.34 65.73 28.34 114.36 76.92 48.63 48.58 76.99 114.26Q840-554.81 840-480.13q0 74.67-28.34 140.41-28.34 65.73-76.92 114.36-48.58 48.63-114.26 76.99Q554.81-120 480.13-120Zm-.13-40q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg> Blend tradition with modern fashion.</li>
+                      <li><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#156878"><path d="m422.46-323.69 255.85-255.85L650-607.85 422.46-380.31l-114-114L280.15-466l142.31 142.31ZM480.13-120q-74.67 0-140.41-28.34-65.73-28.34-114.36-76.92-48.63-48.58-76.99-114.26Q120-405.19 120-479.87q0-74.67 28.34-140.41 28.34-65.73 76.92-114.36 48.58-48.63 114.26-76.99Q405.19-840 479.87-840q74.67 0 140.41 28.34 65.73 28.34 114.36 76.92 48.63 48.58 76.99 114.26Q840-554.81 840-480.13q0 74.67-28.34 140.41-28.34 65.73-76.92 114.36-48.58 48.63-114.26 76.99Q554.81-120 480.13-120Zm-.13-40q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg> Ensure customer satisfaction.</li>
+                  </ul>
+                </div>
+                <div class="box">
+                  <h2>Our Mission</h2>
+                  <ul>
+                      <li><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#156878"><path d="m422.46-323.69 255.85-255.85L650-607.85 422.46-380.31l-114-114L280.15-466l142.31 142.31ZM480.13-120q-74.67 0-140.41-28.34-65.73-28.34-114.36-76.92-48.63-48.58-76.99-114.26Q120-405.19 120-479.87q0-74.67 28.34-140.41 28.34-65.73 76.92-114.36 48.58-48.63 114.26-76.99Q405.19-840 479.87-840q74.67 0 140.41 28.34 65.73 28.34 114.36 76.92 48.63 48.58 76.99 114.26Q840-554.81 840-480.13q0 74.67-28.34 140.41-28.34 65.73-76.92 114.36-48.58 48.63-114.26 76.99Q554.81-120 480.13-120Zm-.13-40q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg> Provide high-quality custom garments.</li>
+                      <li><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#156878"><path d="m422.46-323.69 255.85-255.85L650-607.85 422.46-380.31l-114-114L280.15-466l142.31 142.31ZM480.13-120q-74.67 0-140.41-28.34-65.73-28.34-114.36-76.92-48.63-48.58-76.99-114.26Q120-405.19 120-479.87q0-74.67 28.34-140.41 28.34-65.73 76.92-114.36 48.58-48.63 114.26-76.99Q405.19-840 479.87-840q74.67 0 140.41 28.34 65.73 28.34 114.36 76.92 48.63 48.58 76.99 114.26Q840-554.81 840-480.13q0 74.67-28.34 140.41-28.34 65.73-76.92 114.36-48.58 48.63-114.26 76.99Q554.81-120 480.13-120Zm-.13-40q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg> Use the finest fabrics in craftsmanship.</li>
+                      <li><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#156878"><path d="m422.46-323.69 255.85-255.85L650-607.85 422.46-380.31l-114-114L280.15-466l142.31 142.31ZM480.13-120q-74.67 0-140.41-28.34-65.73-28.34-114.36-76.92-48.63-48.58-76.99-114.26Q120-405.19 120-479.87q0-74.67 28.34-140.41 28.34-65.73 76.92-114.36 48.58-48.63 114.26-76.99Q405.19-840 479.87-840q74.67 0 140.41 28.34 65.73 28.34 114.36 76.92 48.63 48.58 76.99 114.26Q840-554.81 840-480.13q0 74.67-28.34 140.41-28.34 65.73-76.92 114.36-48.58 48.63-114.26 76.99Q554.81-120 480.13-120Zm-.13-40q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg> Offer tailored solutions.</li>
+                      <li><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f88c28"><path d="m422.46-323.69 255.85-255.85L650-607.85 422.46-380.31l-114-114L280.15-466l142.31 142.31ZM480.13-120q-74.67 0-140.41-28.34-65.73-28.34-114.36-76.92-48.63-48.58-76.99-114.26Q120-405.19 120-479.87q0-74.67 28.34-140.41 28.34-65.73 76.92-114.36 48.58-48.63 114.26-76.99Q405.19-840 479.87-840q74.67 0 140.41 28.34 65.73 28.34 114.36 76.92 48.63 48.58 76.99 114.26Q840-554.81 840-480.13q0 74.67-28.34 140.41-28.34 65.73-76.92 114.36-48.58 48.63-114.26 76.99Q554.81-120 480.13-120Zm-.13-40q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg> Maintain ethical, sustainable practices.</li>
+                      <li><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f88c28"><path d="m422.46-323.69 255.85-255.85L650-607.85 422.46-380.31l-114-114L280.15-466l142.31 142.31ZM480.13-120q-74.67 0-140.41-28.34-65.73-28.34-114.36-76.92-48.63-48.58-76.99-114.26Q120-405.19 120-479.87q0-74.67 28.34-140.41 28.34-65.73 76.92-114.36 48.58-48.63 114.26-76.99Q405.19-840 479.87-840q74.67 0 140.41 28.34 65.73 28.34 114.36 76.92 48.63 48.58 76.99 114.26Q840-554.81 840-480.13q0 74.67-28.34 140.41-28.34 65.73-76.92 114.36-48.58 48.63-114.26 76.99Q554.81-120 480.13-120Zm-.13-40q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg> Deliver prompt and detailed service.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <a class="btn mt-2" id="service-btn" href="" role="button">Our Services</a> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Metrics -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12" id="rating">
+            <div class="row justify-content-center align-items-center" id="rating-cont">
+              <div id="rat-cont">
+                <div class="cont-1 text-center">
+                  <h1>Metrics That Define <br> Our Industry</h1>
+                </div>
+                <div class="cont-metrics">
+                  <div class="metric">
+                    <h2><span class="counter" data-target="2000">0</span><span class="plus">+</span></h2>
+                    <h5>Personalized Apparel</h5>
+                  </div>
+                  <div class="metric">
+                    <h2><span class="counter" data-target="300">0</span><span class="plus">+</span></h2>
+                    <h5>Successful Projects</h5>
+                  </div>
+                  <div class="metric">
+                    <h2><span class="counter" data-target="100">0</span><span class="plus">+</span></h2>
+                    <h5>Satisfied Customers</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Services -->
+    <section>
+      <div class="container-fluid" id="service-sect">
+        <div class="row">
+          <div class="col-md-12">
+            <h6 id="service-head"> OUR SERVICES</h6>
+            <h1>
+              Let's Explore What We Do.
+            </h1>
+            <p>
+              Whether it's for personal wear or bulk orders, we pride ourselves on meeting the unique <br>
+              needs of our clients with attention to detail and prompt service.
+            </p>
+            <a class="btn mt-2" id="service-btn" href="#project-sect" role="button">Completed Projects</a>
+          </div>
+        </div>
+        <div class="row" id="service-card">
+          <div class="col-md-4" id="service-1" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true" data-aos-offset="0">
+            <div class="card border border-0 shadow rounded" id="card-st">
+              <div class="card-body p-5 pt-4" id="project-data">
+                <img src="Resources/Images/thread.webp" id="service-img" alt="">
+                <h3 class="card-title"><b>On-Trend Outfits</b></h3>
+                <h6 class="card-subtitle mb-2">Fashion That Matches Your Vibe</h6>
+                <p>From stylish baggy pants to comfortable 3/4 T-shirts, 
+                  we create high-quality apparel that keeps you ahead of the fashion curve.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" id="service-2" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" data-aos-offset="0">
+            <div class="card border border-0 mt-5 shadow rounded" id="card-st">
+              <div class="card-body p-5 pt-4" id="project-data">
+                <img src="Resources/Images/sewing-machine.webp" id="service-img" alt="">
+                <h3 class="card-title"><b>Custom Apparel</b></h3>
+                <h6 class="card-subtitle mb-2">Crafted from Your Imagination</h6>
+                <p>Whether you need an customized shirts pants Argentina jersey or a personalized design, 
+                  we deliver premium craftsmanship across India.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" id="service-3" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" data-aos-offset="0">
+            <div class="card border border-0 shadow rounded" id="card-st">
+              <div class="card-body p-5 pt-4" id="project-data">
+                <img src="Resources/Images/knitting.webp" id="service-img" alt="">
+                <h3 class="card-title"><b>Casual Outfits</b></h3>
+                <h6 class="card-subtitle mb-2">Effortless Style for Everyday</h6>
+                <p>Our casual outfits are designed for work and beyond, combining professionalism with style, 
+                  all tailored to your size for the perfect fit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" id="service-4" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true" data-aos-offset="0">
+            <div class="card border border-0 shadow rounded" id="card-st">
+              <div class="card-body p-5 pt-4" id="project-data">
+                <img src="Resources/Images/shirt.webp" id="service-img" alt="">
+                <h3 class="card-title"><b>Cultural Outfits</b></h3>
+                <h6 class="card-subtitle mb-2">Embracing Tradition with Style</h6>
+                <p>We design cultural outfits that celebrate tradition, from vetti shirts to gurdas, 
+                  embracing styles from Kanniyakumari to Kashmir.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" id="service-5" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" data-aos-offset="0">
+            <div class="card border border-0 mt-5 shadow rounded" id="card-st">
+              <div class="card-body p-5 pt-4" id="project-data">
+                <img src="Resources/Images/machine.webp" id="service-img" alt="">
+                <h3 class="card-title"><b>Fabric Printing</b></h3>
+                <h6 class="card-subtitle mb-2">Your idea's into Fabric</h6>
+                <p>We offer fabric printing in unique styles, from Saleena cloth to Popcorn cloth, 
+                  with high-quality designs for a stylish touch.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" id="service-6" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" data-aos-offset="0">
+            <div class="card border border-0 shadow rounded" id="card-st">
+              <div class="card-body p-5 pt-4" id="project-data">
+                <img src="Resources/Images/Uniform.webp" id="service-img" alt="">
+                <h3 class="card-title"><b>Uniform Outfits</b></h3>
+                <h6 class="card-subtitle mb-2">Stitch for Unity and Uniqueness</h6>
+                <p>We create stylish uniforms that enhance group vibe, from school uniforms to workplace attire, 
+                  ensuring comfort and unity in every design.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Logo Section 1 -->
+    <section id="clients">
+      <div class="container">
+          <div class="row justify-content-center align-items-center text-center">
+              <div class="col-6 col-sm-4 col-md-2">
+                  <img src="Resources/Images/Logo_1.webp" alt="Logo_1" class="img-fluid">
+              </div>
+              <div class="col-6 col-sm-4 col-md-2">
+                  <img src="Resources/Images/Logo_5.webp" alt="Logo_2" class="img-fluid">
+              </div>
+              <div class="col-6 col-sm-4 col-md-2">
+                  <img src="Resources/Images/Logo_3.webp" alt="Logo_3" class="img-fluid">
+              </div>
+              <div class="col-6 col-sm-4 col-md-2">
+                  <img src="Resources/Images/Logo_4.webp" alt="Logo_4" class="img-fluid">
+              </div>
+              <div class="col-6 col-sm-4 col-md-2">
+                  <img src="Resources/Images/Logo_2.webp" alt="Logo_5" class="img-fluid logo_5">
+              </div>
+          </div>
+      </div>
+    </section> 
+    <!-- Our Projects -->
+    <section class="project-sect text-center py-5" id="project-sect">
+      <div class="container">
+        <div class="row" id="projects">
+          <div class="col-md-12">
+            <h6 id="testimonial-head">OUR RECENT PROJECTS</h6>
+            <h1>
+              Some Of Our Latest Projects
+            </h1>   
+            <p style="font-size: 14px;">
+              Following are the our Statisfied Customers few heartful picks. Let's explore, <br>
+              decide and take your's first step to craft your cloth by reaching us. 
+            </p>
+            <a class="btn mt-2" id="service-btn" href="#contact-form" role="button">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="ic-1">
+        <div class="row m-5 mb-0" id="img-container">
+          <div class="col-md-3">
+            <img src="Resources/Images/IMG-20250311-WA0025.webp" alt="Project Image 1" id="pro-img_1">
+          </div>
+          <div class="col-md-3">
+            <img src="Resources/Images/IMG-20250311-WA0040_11zon.webp" alt="Project Image 6" id="pro-img_6">
+            <img src="Resources/Images/IMG-20250311-WA0041_11zon.webp" alt="Project Image 5" id="pro-img_5">
+          </div>
+          <div class="col-md-3">
+            <img src="Resources/Images/IMG-20250311-WA0029.webp" alt="Project Image 3" id="pro-img_3">
+            <img src="Resources/Images/IMG-20250311-WA0030.webp" alt="Project Image 4" id="pro-img_4">
+          </div>
+          <div class="col-md-3">
+            <img src="Resources/Images/IMG-20250311-WA0027.webp" alt="Project Image 2" id="pro-img_2">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="ic-2">
+        <div class="row ms-5 me-5" id="img-container">
+          <div class="col-md-3">
+            <img src="Resources/Images/1741757700667_1_11zon.webp" alt="Project Image 7" id="pro-img_1">
+            <img src="Resources/Images/1741756529899_5_11zon.webp" alt="Project Image 9" id="pro-img_9">
+          </div>
+          <div class="col-md-3">
+            <img src="Resources/Images/1741756876640_1_11zon.webp" alt="Project Image 13" id="pro-img_9" id="pro-img_29">
+            <img src="Resources/Images/1741757144903_4_11zon.webp" alt="Project Image 14" id="pro-img_9">
+            <img src="Resources/Images/pro-lst_11zon.webp" alt="Project Image 16" id="pro-img_15">
+          </div>
+          <div class="col-md-3">
+            <img src="Resources/Images/1741756708883_9_11zon.webp" alt="Project Image 12" id="pro-img_9">
+            <img src="Resources/Images/1741848257314_12_11zon.webp" alt="Project Image 12" id="pro-img_9">
+            <img src="Resources/Images/1741758184072_11zon.webp" alt="Project Image 15" id="pro-img_15">
+          </div>
+          <div class="col-md-3">
+            <img src="Resources/Images/1741757546416_2_11zon.webp" alt="Project Image 8" id="pro-img_2">
+            <img src="Resources/Images/1741756614730_8_11zon.webp" alt="Project Image 10" id="pro-img_9">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="ic-3">
+        <div class="row m-5 mb-0" id="img-container">
+          <div class="col-md-3">
+            <img src="Resources/Images/pro-img-1.webp" alt="Project Image 14" id="pro-img_21">
+          </div>
+          <div class="col-md-3">
+            <img src="Resources/Images/pro-img-3.webp" alt="Project Image 15" id="pro-img_26">
+            <img src="Resources/Images/pro-img-5.webp" alt="Project Image 16" id="pro-img_25">
+          </div>
+          <div class="col-md-3">
+            <img src="Resources/Images/pro-img-6.webp" alt="Project Image 17" id="pro-img_23">
+            <img src="Resources/Images/pro-img-4.webp" alt="Project Image 4" id="pro-img_24">
+          </div>
+          <div class="col-md-3">
+            <img src="Resources/Images/pro-img-2.webp" alt="Project Image 18" id="pro-img_22">
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- Testimonals section -->
+    <section class="testimonial-section text-center mt-5 mt-sm-0 py-5 pt-sm-0 pb-0">
+      <div class="container">
+        <div class="row" id="teximonials">
+          <div class="col-md-12">
+            <h6 id="testimonial-head">OUR TESTIMONIALS</h6>
+            <h5 class="fw-bold">1,450+ Satisfied Clients Over The Globe</h5>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row" id="teximonals">
+          <div class="col-md-12">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000" data-bs-pause="hover" data-bs-touch="true">
+                  <div class="d-block w-100">
+                    <img src="Resources/Images/quotation.webp" alt="" id="quote">
+                    <p style="font-size: 12px;">
+                      நான் பார்த்ததிலையே UA ஹார்மண்ட சிறந்தது ஏன்என்றால், என் மாணவர்களுக்காக நிறைய இடத்தில் ஜெர்ஷி அடித்திருக்கிறேன் 
+                      ஆனால்  எந்த ஹர்மண்டுலையும் ஒரு ஜெர்ஷி கூடுதலாக அடிச்சிகொடுத்து  ஓகே பண்ணதுக்கு நமக்கு நேரம் தரமாட்டாங்க. மாடல் ஜெர்ஷி அடித்து குடுக்கவே மாட்டாங்க. ஆனால் அதனை இங்க பண்றாங்க.
+                      அதனை மாதிரி நான் பார்த்ததில் எல்லா கடையிலும் 20 எண்ணத்துக்கு மேல் தான் அடித்து தருவாங்க. இங்க இரண்டு எண்ணமாக இருந்தாலும் அடிச்சுத்தாருவாங்க தயங்கவே மாட்டாங்க, 
+                      வெளியே எல்லாம் compare பண்ணும் போது காசும் ரொம்ப கம்மியாதான் இருக்கு. உங்கள் பட்ஜெட்டுக்கு  ஏத்தமாதிரி பண்ணி தருவாங்க. ஆனா ஒரு பிரிண்டு கூட மிஸ் ஆச்சு அப்படின்னு சொன்னாலும் - 
+                      ஒரு 40 ஜர்சி நாங்க அடிக்க குடுத்து 40 எங்களுக்கு மேல தப்பு இருந்தா கூட அவ்வளவு எண்ணத்தையும் மாத்தி தாராங்க இதனை விட நான் பார்த்ததில் யாருமே இவ்வளவு பண்ண மாட்டாங்க எனக்கு தெரிந்ததுல். அதனால் உறுதியாக நான் இவங்களை பரிந்துரைப்பேன்.
+                    </p>
+                  </div>
+                  <div class="carousel-caption">
+                    <img src="Resources/Images/royalsc-testi.webp" alt="" id="texi-img">
+                    <h5>Shiji (Royal Sports Club)</h5>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000" data-bs-pause="hover">
+                  <div class="d-block w-100">
+                    <img src="Resources/Images/quotation.webp" alt="" id="quote">
+                    <p style="font-size: 12.5px;">
+                      நாங்கள் இவர்களிடம் இருந்து மொத்தமாக ஒரு 4 ஜெர்ஷி அடித்திருந்தோம்.  இதற்கு முன்பு, 15 இடங்களில் ஜெர்சிகள் தயாரித்திருந்தோம், ஆனால் எங்கேயும் முழுமையான திருப்தி கிடைக்காமல், 
+                      மாறிமாறி முயற்சி செய்த பிறகுதான் இவங்க கிட்ட கொடுத்தோம். இவங்கிட்ட நம்ம ஒரு மாடல் குடுத்து ஒரு 20 ஜெர்ஷி அடிக்க சொன்னோமிண்ண 
+                      அவங்க ஒரு எண்ணம் மாடல் தந்து சரிபாத்து தான் அடிக்க தொடங்குவாங்க அவுளோ முக்கியத்துவம் தருவாங்க. அவங்க தாற மாடலுக்கும் 1 ருபாய் கூட சார்ஜ் பண்ண மாட்டாங்க. 
+                      அப்புறம் துணி, பட்ஜெடோட ஒப்பிடாமல், சிறந்தது ஏதுன்னு நம்மகிட்ட சொல்லிட்டு, அப்புறம் சொல்லுவாங்க பட்ஜெட்.  இப்ப வெளியே உள்ள கடைகளைவிட நல்ல கம்மியாதான் இருக்கும். 
+                      நம்ம திருப்திக்கு அவுளோ முக்கியத்துவம் கொடுப்பாங்க.இது ஒரு வாட்டியாச்சும் அவங்கட்ட ஜெர்ஷி அடிச்சங்களுக்கு தெரியும். அவங்க design, quality, skill, communication இவற்றை மனதில் கொண்டு 5/5 கொடுப்பேன்.
+                    </p>
+                  </div>
+                  <div class="carousel-caption">
+                    <img src="Resources/Images/prabhu.webp" alt="" id="texi-img">
+                    <h5>Prabhu (Prof.SKV Hr.Sec School)</h5>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-block w-100">
+                    <img src="Resources/Images/quotation.webp" alt="" id="quote">
+                    <p>
+                      I would like to extend my best wishes to those who have done this.The way we feel 
+                      when we put our clothes on UA garments Saravanan anna worked very well, 
+                      and he made sure that we don't get cheated by anyone,and I wish him all the best. 
+                    </p>
+                  </div>
+                  <div class="carousel-caption">
+                    <img src="Resources/Images/sporty-texti-min.webp" alt="" id="texi-img">
+                    <h5>S.NAGARAJ (Sporty Little)</h5>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-block w-100">
+                    <img src="Resources/Images/quotation.webp" alt="" id="quote">
+                    <p style="font-size: 13.4px;">
+                      எங்களுக்கு UA கார்மெண்ட்ஸ்ஐ கடைசி 4 வருடங்களாக தெரியும். 
+                      எங்கள் ஆலயத்தில் வருடம் தோறும் நடைபெறும் திருவிழா மற்றும் பட்டாபிஷேகம் போன்ற நிகழ்ச்சிகளுக்கு 
+                      டீசர்ட் மற்றும் சர்ட் ஆகியவை UA கார்மென்ட்ஸ்ல் இருந்து எடுத்து வருகிறோம். 
+                      அவர்கள்தான் எங்களுக்கு டிசைன் பண்ணி தருவார்கள். 
+                      மற்ற கடைகளை ஒப்பிடும்போது விலை குறைவு துணியும் தரமாக இருக்கிறது.
+                    </p>
+                  </div>
+                  <div class="carousel-caption">
+                    <img src="Resources/Images/skpt-testi.webp" alt="" id="texi-img">
+                    <h5>Sree Krishna Paramathma Temple (Paalaikavillai)</h5>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-block w-100">
+                    <img src="Resources/Images/quotation.webp" alt="" id="quote">
+                    <p style="font-size: 14.5px;">
+                      I recently visited your textiles shop and was impressed with the wide variety of fabrics and materials available. 
+                      The staff were friendly and helpful, and the prices were reasonable. I would definitely recommend your shop to others!.
+                      Your textile skills are impressive! I love the attention to detail and the creativity you bring to your projects. 
+                      Your ability to work with different fabrics and techniques is exceptional. Keep up the fantastic work!.
+                    </p>
+                  </div>
+                  <div class="carousel-caption">
+                    <img src="Resources/Images/Logo_1.webp" alt="" id="texi-img">
+                    <h5>Asher (New India Chruch Of God)</h5>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-block w-100">
+                    <img src="Resources/Images/quotation.webp" alt="" id="quote">
+                    <p style="font-size: 14.5px;">
+                      I am absolutely thrilled with the dress stitching services I received! The seamstress was highly skilled and attentive to detail, ensuring that every stitch was perfect.
+                      The dress fits me flawlessly, and the quality of the stitching is exceptional. The material was handled with care, and the finished product looks stunning.
+                      I highly recommend this service to anyone looking for professional and reliable dress stitching. The prices are reasonable, and the turnaround time was quick.
+                    </p>
+                  </div>
+                  <div class="carousel-caption">
+                    <img src="Resources/Images/rock-texti.webp" alt="" id="texi-img">
+                    <h5>Rock Starz (Aluvilai)</h5>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-block w-100">
+                    <img src="Resources/Images/quotation.webp" alt="" id="quote">
+                    <p style="font-size: 14.5px;">
+                      UA Garment is truly the one-stop destination for all kinds of outfits! Whether it's a wedding, festival, religious attire, or group uniform, their collection is simply amazing. 
+                      The staff is warm, professional, and incredibly patient, helping you find the perfect fabric and design. 
+                      I loved how they even provided a sample piece before finalizing the order! Their commitment to quality and customer satisfaction is outstanding.
+                    </p>
+                  </div>
+                  <div class="carousel-caption">
+                    <img src="Resources/Images/lee-testi.webp" alt="" id="texi-img">
+                    <h5>Lee's Fitness & Gym (Melpuram)</h5>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-block w-100">
+                    <img src="Resources/Images/quotation.webp" alt="" id="quote">
+                    <p style="font-size: 14.5px;">
+                      Their group dress collections and jerseys are perfect for events, and the team is incredibly knowledgeable and patient. 
+                      They take the time to educate customers, provide demo pieces, and ensure every outfit meets high-quality standards. 
+                      Whether it's traditional wear or modern designs, they've got everything covered! Highly recommended for anyone looking for customized outfits with a personal touch.
+                    </p>
+                  </div>
+                  <div class="carousel-caption">
+                    <img src="Resources/Images/sign-test_11zon.webp" alt="" id="texi-img">
+                    <h5>Signature (Sports Club)</h5>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Work Flow Section -->
+    <section class="wrk_mdl pt-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12" id="wrk_cont">
+            <h6 id="connect-head">HOW WE WORK</h6>
+              <h1>
+                5+ Years Of Experience In Market With 20+ Skilled Workers
+              </h1>
+              <div class="steps">
+                <div class="step d-flex align-items-start">
+                  <div class="image-box">
+                    <img src="Resources/Images/consultation.webp" alt="Consultation">
+                  </div>
+                  <div class="text-box">
+                    <h5>Consultation</h5>
+                    <p>Visit garment and consult with our skilled staff to meet your need.</p>
+                  </div>
+              </div>
+              <div class="step d-flex align-items-start">
+                <div class="image-box">
+                  <img src="Resources/Images/measure.webp" alt="Choose Your Material">
+                </div>
+                <div class="text-box">
+                  <h5>Choose Your Material</h5>
+                  <p>Explore our unique collection of traditional and trending materials.</p>
+                </div>
+              </div>
+              <div class="step d-flex align-items-start">
+                <div class="image-box">
+                  <img src="Resources/Images/products.webp" alt="Explore Demo Piece">
+                </div>
+                <div class="text-box">
+                  <h5>Explore Demo Piece</h5>
+                  <p>Don't worry about the final result before analyzing our demo piece.</p>
+                </div>
+              </div>
+              <div class="step d-flex align-items-start">
+                <div class="image-box">
+                  <img src="Resources/Images/production.webp" alt="Production">
+                </div>
+                <div class="text-box">
+                  <h5>Production</h5>
+                  <p>After approval from you, we start production of the targeted count.</p>
+                </div>
+              </div>
+              <div class="step d-flex align-items-start">
+                <div class="image-box">
+                  <img src="Resources/Images/mark.webp" alt="The Final Result">
+                </div>
+                <div class="text-box">
+                  <h5>The Final Result</h5>
+                  <p>We promise you on-date delivery of the product to your hand.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 pe-5 d-flex justify-content-center align-items-center position-relative">
+            <img src="Resources/Images/wrk-mdl_1.webp" alt="Main Image" class="wrk_img1 img" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" data-aos-offset="5">
+            <img src="Resources/Images/wrk-mdl_2.webp" alt="Secondary Image" class="wrk_img2 img" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true" data-aos-offset="5">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog Section -->
+    <section class="blog-section mb-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h6>BLOG</h6>
+            <h2>Blog & Articles</h2>
+            <p>
+             Our latest achievements and story about ourselves and about our happy customers were updated in our blog
+              and article section in this site. You can explore if possible to gain more insights about us and understand us. <br>
+              <a class="btn mt-3" type="button" id="about-btn" href="blog.html" role="button">Blog & Articles</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Promise Section -->
+    <section class="mb-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12" id="recall">
+            <div class="row justify-content-center align-items-center" id="recalling-cont">
+              <div id="recall-cont">
+                <div class="contant-1 text-center">
+                  <h6 id="connect-head">TOP QUALITY AND PROMISE</h6>
+                  <h1>Even A Single Piece We Are The Best Garment For Your Needs.</h1>
+                </div>
+                <div class="contant-2 text-center">
+                  <p>
+                    For your sports events, academic events, memorable events, club annual celebrations, cultural events,
+                     inauguration fests, temple, church, and mosque festivals, group wear, and clothing for both men and women, we are the right choice for you.
+                     Contact us to make your event memorable. <br>
+                    <a class="btn mt-3" type="button" id="about-btn" href="#about_us" role="button">Contact Us 👇</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact-form my-5">
+      <div class="container-fluid">
+        <div class="row" id="connect-sect">
+          <div class="col-md-6" id="connect-left">
+            <h6 id="connect-head">CONNECT WITH US</h6>
+            <h1>
+              Expert Garment Manufacturing & Tailoring in Kanyakumari
+            </h1>
+            <p>
+              Let's bring your fashion ideas to life! Contact us for custom tailoring, bulk orders, or any garment manufacturing needs. 
+              We are here to create the perfect fit for you.
+              Whether for personal wear or bulk orders, we are committed to delivering exceptional service and tailored perfection.
+            </p>
+          <div class="row" id="address">
+            <div class="col-md-6">
+              <a href="https://maps.app.goo.gl/Hmw91tyvmFG9Uc6t7" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+              <div class="address-line">
+                <h6></h6>
+                <h6>Konam Junction, Near Kalzuvanthittai</h6>
+                <h6>Maruthancode Post</h6>
+                <h6>Marthandam</h6>
+                <h6>Kannyakumari Dist</h6>
+                <h6>TN - 629 163</h6>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-6" id="cont-form">
+            <form id="contact-form">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input id="name" type="text" placeholder="Ferik Arow" class="form-control" name="Name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mobileNumber" class="form-label">Mobile Number</label>
+                    <input id="mobileNumber" type="tel" placeholder="912345678" class="form-control" pattern="[0-9]{10}" name="Mobile Number" required>
+                </div>
+                <div class="mb-3">
+                    <label for="comment" class="form-label">Your Message</label>
+                    <textarea id="comment" placeholder="I like know about pricing details." class="form-control" rows="2" name="Comment" required></textarea>
+                </div>
+                <button type="submit" id="submit-btn" class="btn text-center px-3 py-0">Submit</button>
+            </form>
+          </div>        
+        </div>
+      </div>
+      <div id="custom-alert" class="custom-alert">
+        <div class="custom-alert-content">
+          <p id="alert-message"></p>
+          <button onclick="closeAlert()"> OK </button>
+        </div>
+      </div>      
+    </section>
+    <!-- Footer -->
+    <section>
+      <footer>
+        <a href="#"><div class="up-arrow"></div></a>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3">
+              <h2>UA Garment</h2>
+              <p id="note">
+                Your Idea's To Apparel
+              </p>
+              <p class="mt-4" id="footer-about">
+                Let's bring your fashion ideas to life! 
+                Contact us for custom tailoring, flexible orders, or any garment manufacturing needs. 
+                We're here to create the perfect fit for you.
+              </p>
+              <a class="btn" type="button" id="about-btn" href="#about_us" role="button">About Us</a>
+              <div class="row mt-3">
+                <div class="footercontainer">
+                  <div class="socialicons" id="social">
+                    <a href="https://wa.me/+919443704173?text=Hii UA Garment, I like to enquire about..." target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="tel:9443704173" target="_blank"><i class="fa-solid fa-phone"></i></a>
+                    <a href="mailto:uagarments1984@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3" id="quick-links">
+              <h4>Navigation Links</h4>
+              <p><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#f88c28"><path d="m480-576-51-51 57-57H336v-72h150l-57-57 51-51 144 144-144 144ZM263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM48-792v-72h133l155 360h301l113-264h78L703-476q-9 20-26.5 32T637-432H317l-42 72h493v72H276q-42 0-63-36.5t0-71.5l52-90-131-306H48Z"/></svg><a href="#banner"> Home </a></p><hr>
+              <p><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#f88c28"><path d="m480-576-51-51 57-57H336v-72h150l-57-57 51-51 144 144-144 144ZM263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM48-792v-72h133l155 360h301l113-264h78L703-476q-9 20-26.5 32T637-432H317l-42 72h493v72H276q-42 0-63-36.5t0-71.5l52-90-131-306H48Z"/></svg><a href=""> Our Services </a></p><hr>
+              <p><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#f88c28"><path d="m480-576-51-51 57-57H336v-72h150l-57-57 51-51 144 144-144 144ZM263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM48-792v-72h133l155 360h301l113-264h78L703-476q-9 20-26.5 32T637-432H317l-42 72h493v72H276q-42 0-63-36.5t0-71.5l52-90-131-306H48Z"/></svg><a href=""> Statisfied Projects </a></p><hr>
+              <p><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#f88c28"><path d="m480-576-51-51 57-57H336v-72h150l-57-57 51-51 144 144-144 144ZM263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM48-792v-72h133l155 360h301l113-264h78L703-476q-9 20-26.5 32T637-432H317l-42 72h493v72H276q-42 0-63-36.5t0-71.5l52-90-131-306H48Z"/></svg><a href=""> Trusted Teximonals </a></p><hr>
+              <p><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#f88c28"><path d="m480-576-51-51 57-57H336v-72h150l-57-57 51-51 144 144-144 144ZM263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM48-792v-72h133l155 360h301l113-264h78L703-476q-9 20-26.5 32T637-432H317l-42 72h493v72H276q-42 0-63-36.5t0-71.5l52-90-131-306H48Z"/></svg><a href="#contact-form"> Contact Us </a></p><hr>
+              <p><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#f88c28"><path d="m480-576-51-51 57-57H336v-72h150l-57-57 51-51 144 144-144 144ZM263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM48-792v-72h133l155 360h301l113-264h78L703-476q-9 20-26.5 32T637-432H317l-42 72h493v72H276q-42 0-63-36.5t0-71.5l52-90-131-306H48Z"/></svg><a href=""> Visit Our Blogs </a></p><hr>
+              <p><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#f88c28"><path d="m480-576-51-51 57-57H336v-72h150l-57-57 51-51 144 144-144 144ZM263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM48-792v-72h133l155 360h301l113-264h78L703-476q-9 20-26.5 32T637-432H317l-42 72h493v72H276q-42 0-63-36.5t0-71.5l52-90-131-306H48Z"/></svg><a href=""> Career Page </a></p>
+            </div>
+            <div class="col-md-3" id="our-services">
+              <h4> Our Services </h4>
+              <p><a href="#services"> Customized Apparel And <br id="br">Affordable Pricing </a></p><hr>
+              <p><a href="#services"> Garment Stitching And <br id="br">Fabric Printing</a></p><hr>
+              <p><a href="#services"> Cultural And On-trend <br id="br"> Outfits </a></p><hr>
+              <p><a href="#services"> Satin And Linen Dying </a></p><hr>
+              <p><a href="#services">Wedding, Casual And Uniform <br id="br"> Interactive Designs </a></p>
+            </div>
+            <div class="col-md-3" id="get-in-touch">
+              <h4> Get In Touch </h4>
+              <p>
+                <a href="tel:9150638744" class="mb-5 num-1"> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f88c28"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg> +91 9150638744 </a>
+                <br><a href="tel:9443704173" style="margin-left: 29px;"> +91 9443704173 </a>
+              </p><hr>
+              <p><a href="mailto:uagarments1984@gmail.com"> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f88c28"><path d="M440-520 120-720v400h400v80H120q-33 0-56.5-23.5T40-320v-480q0-33 23.5-56.5T120-880h640q33 0 56.5 23.5T840-800v200h-80v-120L440-520Zm0-80 320-200H120l320 200ZM760-80q-66 0-113-47t-47-113v-180q0-42 29-71t71-29q42 0 71 29t29 71v180h-80v-180q0-8-6-14t-14-6q-8 0-14 6t-6 14v180q0 33 23.5 56.5T760-160q33 0 56.5-23.5T840-240v-160h80v160q0 66-47 113T760-80ZM120-720v-80 480-400Z"/></svg> uagarments1984@gmail.com</a></p><hr>
+              <p><a href="https://maps.app.goo.gl/irziqAkRpTzR9ayS6" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f88c28"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>
+                Konam Jn, Maruthancode Post, <span id="add-foot">Near Marthandam - 629 163.</span>
+              </a></p>
+              <!-- <p style="margin-left: 29px;"><a href="https://maps.app.goo.gl/8VNY7obScc2xqfKKA" target="_blank">
+                Trivandrum Main Road, Crystal Press Opst, MTM - 629 165.
+              </a></p><hr> -->
+              <hr>
+              <p><a href=""> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f88c28"><path d="M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Zm280 240q-17 0-28.5-11.5T440-440q0-17 11.5-28.5T480-480q17 0 28.5 11.5T520-440q0 17-11.5 28.5T480-400Zm-160 0q-17 0-28.5-11.5T280-440q0-17 11.5-28.5T320-480q17 0 28.5 11.5T360-440q0 17-11.5 28.5T320-400Zm320 0q-17 0-28.5-11.5T600-440q0-17 11.5-28.5T640-480q17 0 28.5 11.5T680-440q0 17-11.5 28.5T640-400ZM480-240q-17 0-28.5-11.5T440-280q0-17 11.5-28.5T480-320q17 0 28.5 11.5T520-280q0 17-11.5 28.5T480-240Zm-160 0q-17 0-28.5-11.5T280-280q0-17 11.5-28.5T320-320q17 0 28.5 11.5T360-280q0 17-11.5 28.5T320-240Zm320 0q-17 0-28.5-11.5T600-280q0-17 11.5-28.5T640-320q17 0 28.5 11.5T680-280q0 17-11.5 28.5T640-240Z"/></svg> Daily: 9AM - 6PM </a></p>
+            </div> 
+          </div>
+          <div class="row">
+            <div class="col-md-12 copyright">
+              <hr id="final">
+              <p>Copyright @2025, All Rights Are Reserved.</p>
+              <p id="adlayr">Textile & Garment Industry application powered by <b><a href="https://vigneshbr.site" target="_blank">AdLaYr Designs</a></b></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
